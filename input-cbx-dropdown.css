@@ -1,0 +1,127 @@
+/* INPUT FIELD */
+
+.input-field {
+    height: 40px;
+    width: 213px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.input-field .icon-search {
+    width: 16px;
+    height: 16px;
+    margin: 8px 8px 8px 16px;
+    background-image: url('../../content/icon/search.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.input-field .input-area .search-area {
+    font-family: GsRegular;
+    font-size: 11px;
+    border: none;
+    outline: none;
+}
+
+.input-field .input-area input::placeholder {
+    color: #bbbbbb;
+}
+
+.input-field input:focus {
+    border: #019160;
+}
+
+.input-field input:focus::placeholder {
+    color: transparent;
+}
+
+
+/* END INPUT FIELD */
+
+
+/* ------------------------- */
+
+
+/*----------DROPDOWN-------*/
+
+.dropdown {
+    height: 168px;
+    width: 215px;
+    align-items: center;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.dropdown-topic {
+    border-radius: inherit;
+    height: 40px;
+    display: flex;
+    width: inherit;
+    align-items: center;
+    border: 1px solid #bbbbbb;
+}
+
+.dropdown-name {
+    margin-left: 16px;
+    color: #000000;
+    font-size: 13px;
+    font-family: GsRegular;
+}
+
+.dropdown-icon {
+    position: relative;
+    margin: 12px;
+    width: 16px;
+    height: 16px;
+    background-image: url('../../content/fontawesome-free-5.15.3-desktop/svgs/solid/chevron-down.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.dropdown-icon:hover .dropdown-menu {
+    display: none;
+}
+
+.dropdown-menu {
+    margin: 4px 0px;
+    height: 120px;
+    display: none;
+    width: inherit;
+    position: relative;
+    border: 1px solid white;
+    z-index: 1;
+}
+
+.drop {
+    width: inherit;
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.dropmenu-icon {
+    margin: 12px 10px;
+    width: 16px;
+    height: 16px;
+    display: none;
+    background-image: url('../../content/fontawesome-free-5.15.3-desktop/svgs/solid/check.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.dropmenu-text {
+    margin-left: 36px;
+}
+
+.dropdown-icon:active {
+    position: relative;
+    margin: 12px;
+    width: 16px;
+    height: 16px;
+    background-image: url('../../content/fontawesome-free-5.15.3-desktop/svgs/solid/chevron-up.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}

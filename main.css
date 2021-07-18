@@ -1,0 +1,13 @@
+@import url(../css/base/button.css);
+@import url(../css/base/text-box.css);
+@import url(../css/layout/content.css);
+@import url(../css/layout/header.css);
+@import url(../css/layout/menu.css);
+@import url(../css/font.css);
+@import url(../css/layout/input-cbx-dropdown.css);
+@import url(../css/layout/inputform.css);
+body {
+    font-family: GsRegular;
+    font-size: 13px;
+    margin: 0px;
+}
